@@ -1,0 +1,21 @@
+.footer {
+    padding: 69px 0 90px;
+    text-align: center;
+    border-top: 1px solid $color-light-grey;
+    &-nav {
+        color: $primary-color;
+        margin: 0 auto 25px;
+        a {
+            &:hover:before {
+                background: $primary-color;
+            }
+        }
+    }
+    p {
+        font: 400 13px $sans-droid;
+        span {
+            font: 400 28px $cursive-vibes;
+            color: $color-danger;
+        }
+    }
+}

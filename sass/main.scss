@@ -1,0 +1,22 @@
+@import "normalize/import-now";
+
+@import 'utils/variables';
+@import 'base/typography';
+@import 'utils/mixins';
+
+@import 'base/base';
+@import 'components/form';
+@import 'components/btn';
+@import 'components/pagination';
+@import 'components/share-counter';
+@import 'components/scroll-bar';
+@import 'components/popup';
+
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/footer';
+
+@import 'pages/home';
+

@@ -1,0 +1,44 @@
+.header {
+    padding: 11px 50px 13px;
+    background: $primary-bg-color;
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 100px;
+    &-nav {
+        padding-right: 60px;
+        color: $second-color;
+    }
+
+    &-logo {
+        position: absolute;
+        max-width: 115px;
+        left: 50%;
+        transform: translateX(-50%);
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .right-bar {
+        display: flex;
+        align-items: center;
+        padding-left: 60px;
+        margin-left: auto;
+        .share-counter {
+            margin: 0;
+            padding: 0;
+            &-item {
+                margin-right: 45px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        .btn-secondary {
+            margin-left: 56px;
+            white-space: nowrap;
+        }
+    }
+}
